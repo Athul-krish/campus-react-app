@@ -1,9 +1,11 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 
 const AddRegister = () => {
   return (
     <div>
+     <Navbar/>
       <div className="container mt-4">
         <div className="row">
           <div className="col col-12">
