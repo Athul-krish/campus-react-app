@@ -50,7 +50,7 @@ const ViewRegister = () => {
                         <td>{value.sslcMark}</td>
                         <td>{value.plusTwoMark}</td>
                         <td>{value.ugMark}</td>
-                        <td>{value.pgMark}</td>
+                        <td>{value.pgMark ? value.pgMark: "-"}</td>
                       </tr>
                     );
                   })}
