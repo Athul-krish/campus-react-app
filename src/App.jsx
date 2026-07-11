@@ -1,6 +1,7 @@
 import AddRegister from "./components/AddRegister"
 import DeleteRegister from "./components/DeleteRegister"
 import SearchRegister from "./components/SearchRegister"
+import ViewRegister from "./components/ViewRegister"
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <AddRegister/>
       <SearchRegister/>
       <DeleteRegister/>
+      <ViewRegister/>
     </>
   )
 }
